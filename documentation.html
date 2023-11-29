@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Documento HTML con CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Toggle -->
+    <div class="toggle-container">
+      <h2>toggle activado</h2>
+      <label class="toggle">
+        <input type="checkbox" id="toggle-btn" />
+        <span class="slider"></span>
+      </label>
+      <p id="toggle-text">Estado inicial</p>
+    </div>
+    <div class="toggle-container">
+      <h2>toggle desactivado</h2>
+      <label class="toggle">
+        <input type="checkbox" id="toggle-btn" disabled />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <!-- RadioButton -->
+    <div class="enabled-radio-group">
+      <label class="radio">
+        <input
+          type="radio"
+          name="enabled-option"
+          value="enabled-option1"
+          checked
+        />
+        <span class="radio-custom"></span>
+        Opción Habilitada 1
+      </label>
+      <label class="radio">
+        <input type="radio" name="enabled-option" value="enabled-option2" />
+        <span class="radio-custom"></span>
+        Opción Habilitada 2
+      </label>
+    </div>
+    <div class="disabled-radio-group">
+      <label class="radio">
+        <input
+          type="radio"
+          name="disabled-option"
+          value="disabled-option1"
+          disabled
+        />
+        <span class="radio-custom"></span>
+        Opción Deshabilitada 1
+      </label>
+      <label class="radio">
+        <input
+          type="radio"
+          name="disabled-option"
+          value="disabled-option2"
+          disabled
+          checked
+        />
+        <span class="radio-custom"></span>
+        Opción Deshabilitada 2
+      </label>
+    </div>
+    <!-- Checkbox -->
+    <div class="checkbox-group">
+      <label class="checkbox">
+        <input type="checkbox" name="option1" value="option1" />
+        <span class="checkbox-custom"></span>
+        Checkbox Deseleccionado
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="option2" value="option2" checked />
+        <span class="checkbox-custom"></span>
+        Checkbox Seleccionado
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="option3" value="option3" disabled />
+        <span class="checkbox-custom"></span>
+        Checkbox Deshabilitado
+      </label>
+    </div>
+    <!-- Text input -->
+    <div class="input-group">
+      <label for="default-input" class="input-label">Default:</label>
+      <input
+        type="text"
+        id="default-input"
+        class="text-input default-border"
+        placeholder="Default"
+      />
+    </div>
+    <div class="input-group">
+      <label for="active-input" class="input-label">Activo:</label>
+      <input
+        type="text"
+        id="active-input"
+        class="text-input active-border"
+        placeholder="Activo"
+      />
+    </div>
+    <div class="input-group">
+      <label for="error-input" class="input-label">Error:</label>
+      <input
+        type="text"
+        id="error-input"
+        class="text-input error-border"
+        placeholder="Error"
+      />
+      <br />
+      <span class="error-message">Error en el mensaje</span>
+    </div>
+    <div class="input-group">
+      <label for="default-input">Input Search:</label>
+      <div class="text-input-search-container">
+        <input type="text" class="text-input-search" id="texto" />
+        <button class="text-input-search-button" id="boton">
+          <i class="fas fa-search fa-lg"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Configuracion de botones -->
+    <table>
+      <tbody>
+        <tr>
+          <td>Default</td>
+          <td>
+            <button class="btn btn-primary-default-1 btn-xl">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-default-2 btn-xl">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-default-3 btn-xl">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Active</td>
+          <td>
+            <button class="btn btn-primary-active-1 btn-xl">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-active-2 btn-xl">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-active-3 btn-xl">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <td>disabled</td>
+          <td>
+            <button class="btn btn-primary-disabled-1 btn-xl">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-disabled-2 btn-xl">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-disabled-3 btn-xl">Button</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <td>Default</td>
+          <td><button class="btn btn-primary-default-1">Button</button></td>
+          <td><button class="btn btn-primary-default-2">Button</button></td>
+          <td><button class="btn btn-primary-default-3">Button</button></td>
+        </tr>
+        <tr>
+          <td>Active</td>
+          <td><button class="btn btn-primary-active-1">Button</button></td>
+          <td><button class="btn btn-primary-active-2">Button</button></td>
+          <td><button class="btn btn-primary-active-3">Button</button></td>
+        </tr>
+        <tr>
+          <td>disabled</td>
+          <td><button class="btn btn-primary-disabled-1">Button</button></td>
+          <td><button class="btn btn-primary-disabled-2">Button</button></td>
+          <td><button class="btn btn-primary-disabled-3">Button</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <td>Default</td>
+          <td>
+            <button class="btn btn-primary-default-1 btn-sm">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-default-2 btn-sm">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-default-3 btn-sm">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Active</td>
+          <td>
+            <button class="btn btn-primary-active-1 btn-sm">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-active-2 btn-sm">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-active-3 btn-sm">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <td>disabled</td>
+          <td>
+            <button class="btn btn-primary-disabled-1 btn-sm">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-disabled-2 btn-sm">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-primary-disabled-3 btn-sm">Button</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Secundary</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <button class="btn btn-secundary-default-1 btn-xl">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-secundary-default-2 btn-xl">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-secundary-default-3 btn-xl">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <td><button class="btn btn-secundary-default-1">Button</button></td>
+          <td><button class="btn btn-secundary-default-2">Button</button></td>
+          <td><button class="btn btn-secundary-default-3">Button</button></td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-secundary-default-1 btn-sm">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-secundary-default-2 btn-sm">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-secundary-default-3 btn-sm">Button</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Buttons</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td width="150">Class</td>
+          <td>Button</td>
+          <td>Button Disabled</td>
+        </tr>
+        <tr>
+          <td colspan="3">Primary</td>
+        </tr>
+        <tr>
+          <td>btn-primary-1</td>
+          <td>
+            <button class="btn btn-primary-1">Button</button>
+          </td>
+          <td><button class="btn btn-primary-1" disabled>Button</button></td>
+        </tr>
+        <tr>
+          <td>btn-primary-2</td>
+          <td><button class="btn btn-primary-2">Button</button></td>
+          <td><button class="btn btn-primary-2" disabled>Button</button></td>
+        </tr>
+        <tr>
+          <td>btn-primary-3</td>
+          <td><button class="btn btn-primary-3">Button</button></td>
+          <td><button class="btn btn-primary-3" disabled>Button</button></td>
+        </tr>
+        <tr>
+          <td colspan="3">Secundary</td>
+        </tr>
+        <tr>
+          <td>btn-secundary-1</td>
+          <td>
+            <button class="btn btn-secundary-1">Button</button>
+          </td>
+          <td><button class="btn btn-secundary-1" disabled>Button</button></td>
+        </tr>
+        <tr>
+          <td>btn-secundary-2</td>
+          <td><button class="btn btn-secundary-2">Button</button></td>
+          <td><button class="btn btn-secundary-2" disabled>Button</button></td>
+        </tr>
+        <tr>
+          <td>btn-secundary-3</td>
+          <td><button class="btn btn-secundary-3">Button</button></td>
+          <td><button class="btn btn-secundary-3" disabled>Button</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Fonts -->
+    <div class="headline-1">H1/72/bold</div>
+    <div class="headline-2">H2/64/bold</div>
+    <div class="headline-3">H3/59/bold</div>
+    <div class="headline-4">H4/48/bold</div>
+    <div class="headline-5">H5/40/bold</div>
+    <div class="subtitle-1-bold">Subtitle1/36/bold</div>
+    <div class="subtitle-1">Subtitle1/36/regular</div>
+    <div class="subtitle-2-bold">Subtitle2/32/bold</div>
+    <div class="subtitle-2">Subtitle2/32/regular</div>
+    <div class="subtitle-3-bold">Subtitle3/28/bold</div>
+    <div class="subtitle-3">Subtitle3/28/regular</div>
+    <div class="uppercase-bold">Uppercase/24/bold</div>
+    <div class="uppercase">Uppercase/24/regular</div>
+
+    <div class="text-body-bold">body/20/bold</div>
+    <div class="text-body">body/20/regular</div>
+    <div class="text-body-light">body/20/light</div>
+
+    <div class="text-button-bold">button/18/bold</div>
+    <div class="text-button">button/18/regular</div>
+    <div class="text-button-light">button/18/light</div>
+
+    <div class="text-menu-bold">menu/18/bold</div>
+    <div class="text-menu">menu/18/regular</div>
+    <div class="text-menu-light">menu/18/light</div>
+
+    <div class="title-card-bold">title card/18/bold</div>
+    <div class="title-card">title card/18/regular</div>
+    <!-- Boton Búsqueda -->
+    <button class="btn btn-search">
+      <i class="fas fa-search"></i>
+    </button>
+    <!-- Card -->
+    <div class="card card-primary-1">
+      <p>card-primary-1</p>
+    </div>
+    <br />
+    <div class="card card-primary-2">
+      <p>card-primary-2</p>
+    </div>
+    <br />
+    <!-- Formulario -->
+    <div style="width: 520px">
+      <div class="card card card-primary-2">
+        <h2>Inicio de sesión</h2>
+        <form>
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="text-input default-border form-input-text"
+              placeholder="Nombre"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="text-input default-border form-input-text"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              id="password"
+              class="text-input default-border form-input-text"
+              name="password"
+              placeholder="Contraseña"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="terms" name="terms" required />
+            <label class="text-disabled input-password"
+              >Aceptar Terminos y condiciones</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary-1 w-100">
+            CONTINUAR
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Tabla -->
+    <div class="table-container">  
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Precio ($)</th>
+            <th>Correo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Juan</td>
+            <td>Pérez</td>
+            <td>25</td>
+            <td class="price-column">50.65</td>
+            <td class="email-column" onclick="copyText('juan@example.com')">
+              juan@example.com
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>María</td>
+            <td>González</td>
+            <td>30</td>
+            <td class="price-column">75</td>
+            <td class="email-column" onclick="copyText('maria@example.com')">
+              maria@example.com
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Carlos</td>
+            <td>Ruíz</td>
+            <td>28</td>
+            <td class="price-column">60.8</td>
+            <td class="email-column" onclick="copyText('carlos@example.com')">
+              carlos@example.com
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Select -->
+    <select class="input-select">
+      <option value="opcion1">Opción 1</option>
+      <option value="opcion2">Opción 2</option>
+      <option value="opcion3">Opción 3</option>
+      <option value="opcion4">Opción 4</option>
+    </select>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
