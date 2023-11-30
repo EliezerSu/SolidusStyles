@@ -1,0 +1,28 @@
+.TableHovered {
+	border-collapse: collapse;
+  	background-color: #FFFFFF;	
+    padding: 0px;
+    margin: 0px;  				
+}
+
+.odd {
+	background-color: #E8ECF0; }
+
+.even{
+  	background-color: #FFFFFF; }
+  
+.hovered{
+  	background-color: yellow; }
+  
+.selected{
+  	background-color: yellow; 
+}  
+.tieneDocSoporte{
+  	background-color: #FBF8AF; 
+}
+.selectedDocSoporte{
+  	background-color: #e82909; 
+} 
+.selectedNA{
+	background-color: #FDE5E1;
+	}

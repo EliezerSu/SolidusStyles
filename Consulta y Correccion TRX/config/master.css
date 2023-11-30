@@ -1,0 +1,2203 @@
+nAccounting.BODY {
+scrollbar-face-color: #707478; 
+scrollbar-highlight-color: #707478; 
+scrollbar-shadow-color: #000000; 
+scrollbar-3dlight-color: #ffffff; 
+scrollbar-arrow-color: #B8BCC0;
+scrollbar-track-color: #B8BCC0; 
+scrollbar-darkshadow-color: #000000;
+}
+
+body, td, p, li, div {
+	font-family: verdana, arial, helvetica, "sans serif"; 
+	font-size: 12px; 
+	font-align: justify;
+	color: #000000;
+}
+
+.menu, .menu:link, .menu:visited, .menu:active {
+	font-family: verdana, arial, helvetica; 
+	font-size: 10px; 
+	color: #000000; 
+	font-weight: normal; 
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.menu:hover {
+	font-family: verdana, arial, helvetica; 
+	font-size: 10px; 
+	color: #ffffff; 
+	font-weight: bold; 
+	text-decoration: underline; 
+}
+
+
+.menuarriba, .menuarriba:link, .menuarriba:visited, .menuarriba:active {
+	font-family: verdana, arial, helvetica, "sans serif"; 
+	font-size: 11px; 
+	color: #707478;
+	font-weight: normal;
+	text-decoration: none; 
+	padding-bottom: -1px;
+	letter-spacing: 1px;
+}
+
+.menuarriba:hover {
+	font-family: verdana, arial, helvetica, "sans serif"; 
+	font-size: 11px; 
+	color: #000000;
+	font-weight: bold;
+	text-decoration: underline; 
+	padding-bottom: -1px;
+	letter-spacing: 0px;
+}
+
+.inputActivo{
+  color:red;
+  background:#FFFFCC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+}
+
+.formulariocampo {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #B8BCC0 url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+}
+
+.formulariocampoSimple {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #B8BCC0 url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+}
+
+
+.formulariocampoWhite{
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #FFFFFF
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+}
+
+.formulariocampoWhiteRight{
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #FFFFFF
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.formulariocampoRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #B8BCC0 url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.formularioCampoBGBlack {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #000000;
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.inputDatoCabDOCLine {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #000000;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;
+        background: url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+}
+
+.inputDatoTitDOCLine {
+	font-size:12px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+  font-weight:bolder;
+	color: #FFFFFF; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #000080;
+	border-right-color: #000080;
+        border-top-color: #000080;
+         background-color:transparent;       
+}
+.inputSubTitDOCLine {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+  font-weight:bolder;
+	color: #FFFFFF; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #000080;
+	border-right-color: #000080;
+        border-top-color: #000080;
+         background-color:transparent;       
+}
+.inputDatoCabDOCBox {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #000000;
+        border-left-color: #000000;
+	border-right-color: #000000;
+        border-top-color: #000000;
+}
+
+.tablaGlobal {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #000000;
+        border-left-color: #000000;
+	border-right-color: #000000;
+        border-top-color: #000000;
+}
+
+.encabezadoTabla {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+  border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+  background-color: #CCCCCC;
+}
+
+.tablaImpuestos {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+  border-bottom-color: #FFFFCC;
+  border-left-color: #FFFFCC;
+	border-right-color: #FFFFCC;
+  border-top-color: #FFFFCC;
+  background-color: #FFFFCC;
+}
+
+.tablaImpuestosDif {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #a2e0ff; 
+	margin-bottom: 1px; 
+	border: 1px solid #a2e0ff;
+  border-bottom-color: #a2e0ff;
+  border-left-color: #a2e0ff;
+	border-right-color: #a2e0ff;
+  border-top-color: #a2e0ff;
+  background-color: #a2e0ff;
+}
+
+.tablaImpWhiteDOWN {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+  border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+.tablaImpWhiteUP {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+  border-top-color: #000000;
+  background-color: #FFFFFF;
+}
+
+.tablaImpWhiteUPDOWN {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+  border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+  border-top-color: #000000;
+  background-color: #FFFFFF;
+}
+
+.tablaImpYellowUPDOWN {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+  border-bottom-color: #000000;
+  border-left-color: #FFFFCC;
+	border-right-color: #FFFFCC;
+  border-top-color: #000000;
+  background-color: #FFFFCC;
+}
+
+.tablaImpuestosUP {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+  border-bottom-color: #FFFFCC;
+  border-left-color: #FFFFCC;
+	border-right-color: #FFFFCC;
+  border-top-color: #000000;
+  background-color: #FFFFCC;
+}
+
+.tablaImpuestosUPDif {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #a2e0ff; 
+	margin-bottom: 1px; 
+	border: 1px solid #a2e0ff;
+  border-bottom-color: #a2e0ff;
+  border-left-color: #a2e0ff;
+	border-right-color: #a2e0ff;
+  border-top-color: #a2e0ff;
+  background-color: #a2e0ff;
+}
+
+.tablaLineImpRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+  border-bottom-color: #FFFFCC;
+  border-left-color: #FFFFCC;
+	border-right-color: #000000;
+  border-top-color: #FFFFCC;
+  background-color: #FFFFCC;
+}
+
+.tablaLineImpRightUp {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+  border-bottom-color: #FFFFCC;
+  border-left-color: #FFFFCC;
+	border-right-color: #000000;
+  border-top-color: #000000;
+  background-color: #FFFFCC;
+}
+
+.tablaLineImpRightDown {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+  border-bottom-color: #000000;
+  border-left-color: #FFFFCC;
+	border-right-color: #000000;
+  border-top-color: #FFFFCC;
+  background-color: #FFFFCC;
+}
+
+.tablaLineImpRightDownDif {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #a2e0ff; 
+	margin-bottom: 1px; 
+	border: 1px solid #a2e0ff;
+  border-bottom-color: #a2e0ff;
+  border-left-color: #a2e0ff;
+	border-right-color: #a2e0ff;
+  border-top-color: #a2e0ff;
+  background-color: #a2e0ff;
+}
+
+.tablaLineImpRightWhite {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+  border-left-color: #FFFFFF;
+	border-right-color: #000000;
+  border-top-color: #000000;
+  background-color: #FFFFFF;
+}
+
+.tablaLineImpRightYellow {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+  border-bottom-color: #000000;
+  border-left-color: #FFFFCC;
+	border-right-color: #000000;
+  border-top-color: #000000;
+  background-color: #FFFFCC;  
+}
+
+.tablaLineImpRightUP {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+  border-bottom-color: #FFFFCC;
+  border-left-color: #FFFFCC;
+	border-right-color: #000000;
+  border-top-color: #000000;
+  background-color: #FFFFCC;
+}
+
+
+.tablaGlobalWhite {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;
+}
+
+.inputDatoDetDOCLeft {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	border: 0;
+        text-align: left;
+        background: transparent;
+}
+
+.inputDatoDetDOCRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+	border-bottom-color: #000000;
+    text-align: right;
+    background: transparent;        
+}
+
+.inputDatoTOTALRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+  border-left-color: #000000;
+	border-right-color: #000000;
+  border-top-color: #000000;
+  text-align: right;
+  background: #FFFFCC;        
+}
+
+.inputDatoSubTDetDOCRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	border: 0;
+  text-align: right;
+  background: transparent;        
+  font-weight:bolder;
+}
+
+textarea.textareaDatoDetDOCLeft{
+	width: 100%;
+  	resize: none;
+	text-transform: uppercase;
+	margin-left: 0px !important;
+    text-align: left !important;    
+}
+	
+.textareaDatoDetDOCLeft {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	border: 0;
+        text-align: left;    
+        background-color:transparent;
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #000000;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;        
+}
+
+.divParameterGral {
+margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+	border-style:inset;
+    border-bottom-color: #000000;
+    border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+    border-top-color: #000000;
+}
+
+.divCuadro {
+margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #000000;
+        border-left-color: #000000;
+	border-right-color: #000000;
+        border-top-color: #000000;
+}
+
+
+.tablaLineRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #FFFFFF;
+	border-right-color: #000000;
+        border-top-color: #FFFFFF;
+}
+
+.formcampo {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #CCEECC; 
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+        text-transform: uppercase;
+}
+
+.formCampoGrandeRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+ 	margin-bottom: 1px; 
+	border: 1px solid #d3d2d2;
+	border-style:inset;	
+	color: #FF0000;
+    text-transform: uppercase;
+}
+
+.formcampoRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #CCEECC;
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+
+.formaMenu {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000080; 
+	background: #B8BCC0 url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #6B7A7C;
+}
+
+.fondoMenu {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #DADADA ;
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+ scrollbar-face-color:#DDECFF;
+ scrollbar-track-color:#EEEEEE;
+ scrollbar-arrow-color:#000880;
+ scrollbar-shadow-color:#E8E8FF; 
+ scrollbar-dark-shadow-color:white;
+ scrollbar-3dlight-color:#DADADA;
+ scrollbar-highlight-color:#99CCFF;    
+}
+
+.formboton {
+	font-size: 10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+	font-weight: bold; 
+	color: #ffffff; 
+	background: #0000A0;
+	cursor:hand;
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+	background-image: url('../imgs/titulo-form-azul-fondo.gif');
+}
+.button {
+	background: #0000A0;
+	text-align:center;
+    color: #F04A4A;
+    padding: 0px 5px;
+    font-family: verdana, arial, helvetica, 'sans serif';
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    cursor:hand;
+}
+.button1 {
+	background-image: url('../imgs/site_blevel.png');
+    border: 2 solid #AAAAAA;
+}
+.button1:hover {
+    background-color: #F4D15F;
+    border: 2 solid #E37E18;
+    color: black; 
+}
+.formbotonBusqueda {
+	font-size: 10px; 
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: bold; 
+	color: #FFCC00; 
+	background: #0000A0;
+	cursor:hand;
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+	background-image: url('../imgs/titulo-form-azul-fondo.gif');
+}
+
+.LetraNormal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.LetraNormalSimple {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	color: #000000;
+}
+
+
+.LetraNormalRight {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	border: 2px solid #d3d2d2;
+	border-style:inset;
+	color: #000000;
+	text-transform: uppercase;
+  text-align: right;
+}
+
+.LetraNormalMin {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	color: #000000;
+}
+
+.LetraNormalMinN {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000000;
+}
+
+.LetraMenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	color: #000333;
+}
+
+.LetraNormalN {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #000000;
+/*  	border: 1px solid #959595; */
+}
+
+.LetraNormalBoldRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #FF0000;
+}
+
+.LetraNormalNBLUE {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #184888;
+}
+
+.LetraNormalNBLUELIGTH {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #0066FF;
+}
+
+.LetraNormalNGREEN{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #00ac56;
+}
+
+.LetraNormalB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #000080;
+  text-decoration: underline;
+}
+
+.LetraSubtitleDoc {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #000000;
+  text-decoration: underline;
+}
+
+.LetraNormalWhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.LetraAviso {
+	color: #2F178E;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: bold;
+}
+.LetraError { color: Red; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; font-style: italic ; line-height: normal}
+
+.LetraAvisoRed {
+	color: Red;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: bold;
+}
+
+.LetraTitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bolder;
+	font-variant: normal;
+	color: #000000;
+}
+
+.Titulo {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	letter-spacing: 1px;
+	color: #0000A0;
+}
+
+.subTitulo {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	color: #0000A0;
+}
+
+.subTituloW {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	color: #ffffff;
+}
+
+.subTituloRed {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	color: red;
+}
+
+.subTituloFase {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+	color: #0000A0;
+  font-style: normal; 
+  line-height: normal; 
+  font-weight:bolder; 
+  font-variant: normal
+}
+
+.subTituloFasePlain {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+	color: #0000A0;
+  font-style: normal; 
+  line-height: normal; 
+  font-weight: normal; 
+  font-variant: normal
+}
+
+.subTituloFaseBLUE {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #184888;
+}
+
+.subTituloFaseNegroPlain {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	color: #000000;
+}
+
+.subTituloFaseNegro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #000000;
+}
+
+
+.LetraSubtitleDocGrande {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #000000;
+  text-decoration: underline;
+}
+
+
+.LetraSubTitulo {color: black; font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px; font-style: normal; line-height: normal; font-weight:bolder; font-variant: normal; }
+.LetraSubTituloW {color: White; font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px; font-style: normal; line-height: normal; font-weight:bolder; font-variant: normal}
+.LetraConsulta { color: White; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: normal;font-weight: bolder; font-variant: normal}
+
+.LetraConstruccion { font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 24pt; font-style: normal; line-height: normal }
+
+.Consulta {background: #000066}
+
+.BoxRojo {  border: #FF0000; border-style: solid; border-top-width: thin;border-right-width: thin; border-bottom-width: thin; border-left-width:thin}
+
+.BoxNegro {  border: #000000; border-style: solid; border-top-width: thin;border-right-width: thin; border-bottom-width: thin; border-left-width:thin}
+
+.BoxAzul {  border: 2px #006699 solid}
+
+.BoxAzulDark {  border: thin #00006c solid}
+
+.LetraConsultaDetalle {
+	background-color: E4E7F1;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+
+}
+.Link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11.5px;
+	color: #0000FF;
+}
+<!-- LA CLASE CON SCROLL CELESTE
+background : #FFFFFF url( "../imgs/nscc_logo_marcaAguaFondo.png");
+ -->
+.fondo {
+ color: #FFFFFF;
+ scrollbar-face-color:#DDECFF;
+ scrollbar-track-color:#EEEEEE;
+ scrollbar-arrow-color:#000880;
+ scrollbar-shadow-color:#E8E8FF; 
+ scrollbar-dark-shadow-color:white;
+ scrollbar-3dlight-color:#DADADA;
+ scrollbar-highlight-color:#99CCFF;  
+}
+<!-- LA CLASE CON SCROLL CELESTE
+background: #FFFFFF url("../imgs/nscc_logo_marcaAguaHome.png");
+ -->
+
+.fondoHome {
+	color: #FFFFFF;
+}
+
+.fondoCombo {
+  font-size:10px; 
+  font-family: verdana, arial, helvetica, 'sans serif'; 
+  background: #EEEEEE;
+  text-transform: uppercase;
+  border: 3px inset;
+}
+
+.formaCheck {
+  border:groove 3px;
+  cursor:hand;
+}
+
+.labelSubtitulo{
+  font-size:8px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+  color: #000000;  
+   text-transform: uppercase;
+}
+
+.labelSubtituloYellow{
+  font-size:8px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+  color: #000000;  
+  background:#FFFFCC;
+}
+
+.dataConsultaActivoGray {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: red; 
+	background: #B8BCC0 url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+}
+
+.dataConsultaActivoYellow {
+  color:red;
+  background:#FFFFCC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.dataConsultaActivoGreen {
+  color:#000080;
+  background: #CCEECC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+  font-weight:bold;
+}
+
+.labelConsultaActivoGreen {
+  color:#000000;
+  background:#CCEECC;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+
+.subrayadoColumna {
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.labelConsultaActivoYellow {
+  color:#000000;
+  background:#FFFFCC;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.linkPer{
+   text-decoration:underline;
+   color:#000066;
+ 	 font-size: 9.5px;
+   cursor:hand;
+   text-transform: uppercase;
+}
+
+.linkCantidad{
+   font-size:9px;
+   font-weight:bold;
+   font-family: verdana, arial, helvetica, 'sans serif'; 
+   border: 0;
+   text-align: right;
+   background: #FFF999;        
+   text-decoration:underline;
+   color:#000066;
+   cursor:hand;
+}
+
+.linkCantidadBlue{
+   font-size:9px;
+   font-weight:bold;
+   border:groove 3px;
+   font-family: verdana, arial, helvetica, 'sans serif'; 
+   border: 0;
+   text-align: right;
+   background: #E8E8FF;        
+   text-decoration:underline;
+   color:#000066;
+   cursor:hand;
+}
+
+.formTransf {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 	
+	background: #FFFFCC; url(../imagenes/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+        text-transform: uppercase;		
+}
+
+.formSaldo {
+	font-size:12px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	font-weight:bold;	
+	color: #000000; 	
+	background: #CCEECC; url(../imagenes/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+        text-transform: uppercase;		
+}   
+
+.formSaldoIng {
+	font-size:12px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	font-weight:bold;	
+	color: #000000; 	
+	background: #FFFFCC; url(../imagenes/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+        text-transform: uppercase;		
+}   
+
+.subTitulo1 {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight:bold;	  
+	color: #0000A0;
+}
+
+.dataConsultaGreen {
+  color:red;
+  background:#CCEECC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.formTransfRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #FFFFCC; 
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.formbotonb {
+  font-size: 10px; 
+  font-family: verdana, arial, helvetica, 'sans serif'; 
+  font-weight: bold; 
+  color: black; 
+  cursor:hand;
+  width: 60; 
+  height: 20; 
+}
+
+.formulaTextArea {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #FFFFCC;
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+}
+
+.formulaTextAreaBlue {
+	font-size:10px;
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #0043F5; 
+	background: #FDD2A0;
+	
+  	text-transform: uppercase;
+  	font-weight: bold;
+}
+
+.LetraChequeN {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #A62A2A;
+}
+
+.inputSubline {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #000000;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;
+}
+
+.lineUPRight {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+	border-right-color: #000000;
+  border-top-color: #000000;
+  background-color: #FFFFFF;
+}
+
+.lineUP{
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #FFFFFF;
+  border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+  border-top-color: #000000;
+  background-color: #FFFFFF;
+}
+
+.lineDOWN{
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+  border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+.textSubrayado{
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000;   
+}
+
+.inputSubtotal{
+	font-size:9px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	border: 0;
+        text-align: right;
+        background: transparent;        
+        font-weight:bold;
+}
+
+
+.formCampoRightSinAsiento {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:normal;
+	font-variant: normal;
+	color: white;
+	text-transform: uppercase;
+    text-align: right;
+	background: #FF0066;
+}
+
+.popup {
+	position:absolute;
+	visibility:hidden;
+	background-color:#FFFFCC;
+	padding:3px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	margin-top:5px
+}
+
+.subTituloAct {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	color: #0000A0;
+}
+.numSri {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FF0000;
+}
+
+.letraBa {
+	font-size:11px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+}
+
+.inputInvisible {
+	font-size:11px; 
+	font-weight: bold; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;
+}
+
+.inputInvisibleBlue {
+	font-size:12px; 
+	font-weight: bold; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #33CCFF; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;
+}
+
+.popup_small {
+	position:absolute;
+	visibility:hidden;
+	background-color:#FFFFCC;
+	padding:3px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	margin-top:5px;
+	font-size: 10px;
+}
+
+.popup_smallInter {
+	position:absolute;
+	visibility:hidden;
+	background-color:white;
+	padding:3px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	margin-top:5px;
+	font-size: 10px;
+}
+
+.LetraNormalBNes {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #000000;
+  text-decoration: underline;
+}
+
+.tablaConsultaTotal {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+  border-left-color: #000000;
+	border-right-color: #000000;
+  border-top-color: #000000;
+}
+
+.tablaLineaLeft{
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-left-color: #000000;
+  border-bottom-color: #000000;  
+}
+
+
+.popupWhite {
+	position:absolute;
+	visibility:hidden;
+	background-color:#FFFFFF;
+	padding:3px;
+	border-style:solid;
+	border-color:white;
+	border-width:1px;
+	margin-top:5px
+}
+
+.inputInvisibleSRI {
+	font-weight: bold; 
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FF0000;
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;
+}
+
+input.disabled{
+color:#202020;
+border: 1px solid #006699;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dataConsultaLila {
+  color:black;
+  background:#CCCCFF;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.dataConsultaLilaRight {
+  color:black;
+  background:#CCCCFF;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+  text-align: right;
+}
+
+.dataConsultaVerde {
+  color:black;
+  background:#CCEECC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.dataConsultaYellow {
+  color:black;
+  background:#FFFFCC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.dataConsultaYellowRigth {
+  color:black;
+  background:#FFFFCC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+  text-align: right;
+}
+
+.dataConsultaYellowCenter {
+  color:black;
+  background:#FFFFCC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+  text-align: center;
+}
+
+.dataConsultaFuccia {
+  color:black;
+  background:#FF9900;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.dataConsultaFucciaRigth {
+  color:black;
+  background:#FF9900;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+  text-align: right;
+}
+
+.dataConsultaFucciaPalido {
+  color:black;
+  background:#FFCC99;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.dataConsultaFucciaPalidoRigth {
+  color:black;
+  background:#FFCC99;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+  text-align: right;
+}
+
+.dataConsultaPagoCh {
+  color:black;
+  background:#CC9966;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.dataConsultaPagoChRigth {
+  color:black;
+  background:#CC9966;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+  text-align: right;
+}
+
+.dataConsultaRedClar {
+  color:black;
+  background:#FF3333;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+
+.dataConsultaAzulClar {
+  color:black;
+  background:#C0D9D9;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+
+
+
+.formulariocampoRightHabilidato {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.inputInvisibleRigth {
+	font-size:11px; 
+	font-weight: bold; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;
+	text-align: right;
+}
+
+.LetraNormalNRED {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: red;
+}
+
+.inputInvisibleRigthRed {
+	font-size:11px; 
+	font-weight: bold; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: red; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;
+	text-align: right;
+}
+
+.dataConsultaRedBlack {
+  color:#FFFFFF;
+  background:#FF9999;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+	font-size:12px; 
+	font-weight: bold; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+}
+
+.formCampoGrandeRedRight {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+ 	margin-bottom: 1px; 
+	border: 1px solid #000000;	
+	color: #FF0000;
+    text-transform: uppercase;
+	text-align: right;
+}
+.inputInvisibleNormal {
+	font-family: 'sans-serif'; 
+	font-size:13px; 
+	font-style: normal;
+	font-weight: normal; 
+	font-variant: normal;
+	color: #000000; 
+	#line-height: normal;
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+}
+
+
+.inputDatoNumericoCampo {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #B8BCC0 url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #000000;
+	text-align: right;
+    text-transform: uppercase;
+}
+
+.inputDatoCampoYellow {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	font-weight:bold;
+	color: #000000; 
+	border: 0;
+        text-align: left;
+        background:YELLOW;
+}
+
+.inputDatoCampoRed {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+	font-weight:bold; 
+	color: #FFFFFF; 
+	border: 0;
+        text-align: left;
+        background:RED;
+}
+
+.inputDatoDetDOCLeftBold {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+	font-weight:bold;
+	color: #000000; 
+	border: 0;
+        text-align: left;
+        background: transparent;
+}
+
+.formCampoGrandeRedB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	color: #FF0000;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.formCampoGrandeBlackB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	color: #000000;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.formcampoGreen{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+ 	color:#000000;
+    background: #CCEECC;
+    margin-bottom: 1px; 
+	border: 1px solid #000000;
+    text-transform: uppercase;
+    text-align: right;
+}
+.formcampoYellow{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+ 	color:#000000;
+    background: #FFFFCC;
+    margin-bottom: 1px; 
+	border: 1px solid #000000;
+    text-transform: uppercase;
+    text-align: right;
+}
+.formCampoLeftSinAsiento {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: white;
+	text-transform: uppercase;
+    text-align: left;
+	background: #FF0066;
+}
+.inputDatoDetDOCRightRed {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+	border-bottom-color: #000000;
+    text-align: right;
+    background: transparent;   
+    color: red;     
+}
+.textareaDatoDetDOCLeftRed {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: red; 
+	border: 0;
+        text-align: left;    
+        background-color:transparent;
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+        border-bottom-color: #000000;
+        border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+        border-top-color: #FFFFFF;        
+}
+.LetraNormalNBig {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #000000;
+}
+.docsDifFases td{
+  	color: #dd6600;
+  	font-weight:bold; 
+}
+.docsRechazados td{
+  	color: #BB8811; 
+  	font-weight:bold;
+}
+.docsAnulados td{
+  	color: #AA33AA; 
+  	font-weight:bold;
+}
+.marginPopup {
+	BORDER-BOTTOM: black 1px solid;
+	POSITION: absolute;
+	BORDER-LEFT: black 1px solid;
+	PADDING-BOTTOM: 3px;
+	BACKGROUND-COLOR: #ffffcc;
+	MARGIN-TOP: 5px;
+	PADDING-LEFT: 3px;
+	PADDING-RIGHT: 3px;
+	BORDER-TOP: black 1px solid;
+	BORDER-RIGHT: black 1px solid;
+	PADDING-TOP: 3px;
+	OVERFLOW:auto;
+}
+
+.docsSoporteAprobacionInterna {
+  	color: orange;
+  	font-weight:bold;
+  	font-size: 11px;
+  	cursor:hand;
+}
+
+.docsSoporteRechazado {
+  	color:red;
+  	font-weight:bold;
+  	font-size: 11px;
+  	cursor:hand;
+}
+
+.docsSoporteAutorizado {
+  	color: blue;
+  	font-weight:bold;
+  	font-size: 11px;
+  	cursor:hand;
+} 
+
+.tablaImpAzulClaroDOWN {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #C0D9D9;
+        border-bottom-color: #FFFFCC;
+        border-left-color: #C0D9D9;
+	border-right-color: #C0D9D9;
+        border-top-color: #C0D9D9;
+        background-color: #C0D9D9;
+}
+
+.tablaImpRedClaroDOWN {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FF3333;
+        border-bottom-color: #FFFFCC;
+        border-left-color: #FF3333;
+	border-right-color: #FF3333;
+        border-top-color: #FF3333;
+        background-color: #FF3333;
+}
+
+.tablaImpYellowClaroDOWN {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+        border-bottom-color: #FFFFFF;
+        border-left-color: #FFFFCC;
+	border-right-color: #FFFFCC;
+        border-top-color: #FFFFCC;
+        background-color: #FFFFCC;
+}
+
+.dataConsultaGreenBold {
+  color:red;
+  background:#CCEECC;
+  margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+  border-bottom-color: #000000;
+	border-left-color: #000000;
+  border-right-color: #000000;
+  border-top-color: #000000;
+	font-size:11px; 
+	font-family: verdana, arial, helvetica, 'sans serif';
+	font-weight:bold;
+}
+
+/* inicio modal */
+/* <div id="tbAnularRetElectronicoRec" style="display: none;width: 500px;height: 200px" class="modal2"> */
+/* 	<a href="#close" title="<i18n:message  bundleRef="name" key="MENSAJE_CERRAR_VENTANA_GRAL"/>" onclick="cerrarView();" class="close" >X</a> */
+/* 	<div class="header">ANULACION DE RETENCION ELECTRONICA</div> */
+div.modal  { 
+    z-index:99999;
+    position: absolute;
+    left: 0;
+    top: 10;
+    padding: 10px 10px;
+    background: #fff;
+    border: 5px solid #999;
+    border-radius:30px;
+    text-align:center;
+    box-shadow:0 3px 7px rgba(0,0,0,.25);
+	-moz-box-shadow:0 3px 7px rgba(0,0,0,.25);
+	-webkit-box-shadow:0 3px 7px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+div.modal div.header{ 
+ 	padding:5px 20px; 
+ 	background: #3B568C; 
+ 	font: 15px; 
+ 	color: #ffffff; 
+ 	font-weight: bold; 
+}
+div.modal a.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+div.modal a.close:hover { background: #00d9ff; }
+/* fin modal */
+
+.textoDescarga{
+   color:red;
+   font-size: 9.5px;
+   font-style: italic;
+   font-family: verdana, arial, helvetica, 'sans serif';
+   text-decoration:underline;
+}
+.cabecera {
+	width: 95%;
+	height: 139px;
+	background-color: white;
+}
+
+#parte1 {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 30px;
+}
+
+#parte2 {
+	height: 109px;
+	/* table-layout: inherit; */
+}
+
+.detalle {
+	margin-top: 10px;
+	width: 95%;
+	background-color: white;
+}
+
+#parte3 {
+	margin-top: 10px;
+	width: 95%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+#divMesg {
+	margin-top: 10px;
+	width: 95%;
+	text-align: left;
+}
+
+.tituloMsg {
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: bolder;
+	font-stretch: extra-expanded;
+	text-transform: uppercase;
+}
+
+thead tr {
+	background-image: url('../imgs/titulo-form-azul-fondo.gif');
+	color: #FFFFFF;
+	align: center;
+	font-size: 10px;
+	margin: auto;
+	text-align: center;
+}
+
+th .sortable a {
+	color: #FFFFFF;
+	font-style: inherit;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.LetraConsultaDetalleBasico {
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+.ui-autocomplete {
+	height: expression( this.scrollHeight > 150 ? "160px" : "auto" );
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 400px!important;
+}
+
+.cedProveedor{
+	font-weight:bold;
+	font-size:0.9em;
+}
+
+.razonSocProveedor{
+	font-size:0.8em;
+}
+
+.ui-widget-content {
+	border: 1px solid #000000!important;
+	background: #ffff80!important;
+	color: #333333;
+}
+.boton {
+border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color bot�n*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoraci�n texto*/
+text-transform: uppercase; /*capitalizaci�n texto*/
+font-family: 'Helvetica', sans-serif; /*tipograf�a texto*/
+border-radius: 50px; /*bordes redondos*/
+}
+
+.tablaImpuestosFucsia {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000;
+    background:#FFCC99;	
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+    border-bottom-color: #FFFFCC;
+    border-left-color: #FFFFCC;
+	border-right-color: #FFFFCC;
+    border-top-color: #FFFFCC;
+ }
+ 
+ .tablaLineImpRightDownFucsia {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background:#FFCC99;	
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFCC;
+    border-bottom-color: #000000;
+    border-left-color: #FFFFCC;
+	border-right-color: #000000;
+    border-top-color: #FFFFCC;
+}
+
+
+.textareaDatoCabDOCLeft {
+	font-size:13px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	font-weight:bold;
+	color: #000000; 
+	border: 0;
+    text-align: left;    
+    background-color:transparent;
+	margin-bottom: 1px; 
+	border: 1px solid #FFFFFF;
+    border-bottom-color: #000000;
+    border-left-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+    border-top-color: #FFFFFF;        
+}
+
+.contenedor-tabla{
+
+display: table;
+font-size: 10px;
+}
+
+.contenedor-fila{
+
+display: table-row;
+
+}
+
+.contenedor-columna{
+
+display: table-cell;
+
+}
+
+
+.formulariocampoBordeGris {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #B8BCC0 url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #E3E4E5;
+	border-bottom-color: #000000;
+  text-transform: uppercase;
+}
+
+.formulariocampoRightBordeGris {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	background: #B8BCC0 url(../imgs/barra-arriba-fecha-gris-fondo-a.gif);
+	margin-bottom: 1px; 
+	border: 1px solid #E3E4E5;
+	border-bottom-color: #000000;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+
+.tablaLineGris3 {
+	font-size:10px; 
+	font-family: verdana, arial, helvetica, 'sans serif'; 
+	color: #000000; 
+	margin-bottom: 1px; 
+	border: 1px solid #D9DADC;
+  border-bottom-color: #D9DADC;
+  border-left-color: #D9DADC;
+	border-right-color: #000000;
+  border-top-color: #D9DADC;
+  background-color: #D9DADC;
+}
+
+form[name='plantillaDocumento'] table#td_impuestosTasas4 input.inputDatoDetDOCRight {
+	float: right;
+	margin-right: 3px;
+}
+
+form[name='frm_sobreescritura'] table#myTABLE td.letraNormal {
+	border-style:inset;
+	border:1px solid#bbb5b5;	
+}
+	
+table[name='previsiondePago'] td.LetraNormalN{
+	border-style:inset;
+	border:1px solid#bbb5b5;
+}
+ 
+ form[name='plantillaDocumento'] table.tablaGlobal input#montoIceM3, input#montoTasasM3, input#baseIvaM3, input#valorIvaPagadoM3, input#valorCalculadoM3, input#valorTotalM3, input#fechaValorTc, input#tipoCambioM1, input#tipoCambioM2{
+ 	font-weight:600;
+ }
+ 
+ select.LetraNormal {
+ border: 1px inset #000000;
+ }
+ 
+ body.fondoMenu{
+ border:none;
+ }
+ 
+#bottomOcultoFrame{
+ border:1px solid #000000;
+ }
